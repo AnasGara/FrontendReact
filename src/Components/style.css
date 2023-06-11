@@ -5,7 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-color: #fceec8;
+  /* background-color: #fceec8; */
+  background-image: url("../../public/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .container {
   width: 90%;
@@ -24,8 +27,8 @@ body {
 }
 .card {
   width: 300px;
-  background-color: #9edef9;
-  border-radius: 1rem;
+  background-color: #ffffff;
+  border-radius: 0rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   padding: 0 1.5rem;
   display: flex;
@@ -36,7 +39,7 @@ body {
 .right-content {
   width: 50%;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   position: fixed;
   top: 100px;
   right: 10px;
@@ -59,7 +62,7 @@ body {
   margin-top: 1rem;
 }
 .abilities .group {
-  background-color: #b74555;
+  background-color: #52171e;
   color: white;
   padding: 0.5rem;
   font-size: 12px;
@@ -81,6 +84,6 @@ body {
   font-size: 17px;
   font-weight: bold;
   color: white;
-  background-color: #b74555;
+  background-color: #52171e;
   border-radius: 8px;
 }
